@@ -1,0 +1,4 @@
+,model,Test score (Accuracy),Train score (Accuracy),Number of trainable parameters,Number of layers,Regularization methods,Number of epochs,Loss function,Optimizer
+0,Basic CNN,0.7475,0.77,"143,617",6,"MaxPooling, Dropout",16,binary_crossentropy,adam
+1,My Model,0.79125,0.9075,"924,353",8,"MaxPooling, Dropout,BatchNormalization",20,binary_crossentropy,adam
+2,InceptionV3,0.97375,0.997,"32,769",48,BatchNormalization,20,binary_crossentropy,rmsprop
